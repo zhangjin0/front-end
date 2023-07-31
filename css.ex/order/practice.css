@@ -1,0 +1,14 @@
+p{
+    color: royalblue;
+}
+
+#text-color{
+    color: chocolate;
+}
+.list-color{
+    color: darkgoldenrod;
+}
+
+h2,#color1,.color2{
+    color: indianred;
+}
