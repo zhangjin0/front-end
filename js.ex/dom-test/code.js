@@ -5,9 +5,13 @@ let button3 = document.getElementById("change-text3");
 button1.addEventListener('click',()=>{
     label.innerHTML ="リセット";
 });
+let a = 0;
 button2.addEventListener('click',()=>{
-    label.innerHTML ="1を加算";
+    a++;
+    var str="値:"+a;
+    label.innerHTML = str;
 });
 button3.addEventListener('click',()=>{
-    label.innerHTML ="１を減算";
+    a--;
+    label.innerHTML = "値:"+a;
 })
